@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.keshavgupta.shoutouts.docfrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Documentation and Copyrights" />
+<TextView
+    android:text="\n\n\n\n It is hereby solemly inform that the application i.e 'ShoutOuts'\n\n holds its proper Copyrights with its owner named 'Mr. Keshav\n\n Gupta' . Any Type of duplication may not be tolerated.. and\n\n action can be taken against if found diobeying these rights.
+\n\n\n\n\n"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+ <TextView
+     android:text="ShoutOuts\n"
+     android:textSize="30sp"
+     android:layout_marginHorizontal="120dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginHorizontal="60dp"
+            android:textSize="20sp"
+            android:text="Developed By Keshav Gupta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

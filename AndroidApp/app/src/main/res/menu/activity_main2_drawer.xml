@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itstartnotify"
+            android:icon="@drawable/startnotfiy"
+            android:title="Start To Notify.." />
+        <item
+            android:id="@+id/itsendalert"
+            android:icon="@drawable/alert"
+            android:title="Send Alert.." />
+        <item
+            android:id="@+id/itemercalls"
+            android:icon="@drawable/emercall"
+            android:title="Emergency Call.." />
+        <item
+            android:id="@+id/itcops"
+            android:icon="@drawable/cops"
+            android:title="Contact Cops" />
+        <item
+            android:id="@+id/itlogout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send FeedBack" />
+        </menu>
+    </item>
+
+</menu>
