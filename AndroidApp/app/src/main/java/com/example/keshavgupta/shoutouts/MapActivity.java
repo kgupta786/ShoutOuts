@@ -88,7 +88,11 @@ public class MapActivity extends AppCompatActivity
                 String name = mydata.getString("email1", null);
                 String name1 = mydata.getString("email2", null);
                 String password = mydata.getString("password", null);
-                SendMail sm = new SendMail(MapActivity.this, name1, "Alert Called..", "https://www.google.com/maps/@-31.6,74.5");
+                SendMail sm = new SendMail(MapActivity.this, name1, "Alert Called..", "Your child/ward seems to be in danger or need any help, Kindly call them..." +"\n"+
+                        "Child-email Id-->" +
+                        name +
+                        "" +
+                        "");
                 //Executing sendmail to send email
                 sm.execute();
 
@@ -140,7 +144,7 @@ sendEmail();
         String name1 = mydata.getString("email2", null);
         String password = mydata.getString("password", null);
 
-        String[] TO = {"iitengineer786@gmail.com"};
+        String[] TO = {"womenprotectionnotifier@gmail.com"};
         String[] CC = {name};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
 

@@ -45,6 +45,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onClick(View view) {
                 finish();
                 startActivity(new Intent(MapsActivity.this,MapActivity.class));
+                finish();
             }
         });
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -63,7 +64,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             MyLocationListener myLocationListener = new MyLocationListener();
 
-            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 3000,
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10000,
                     0, myLocationListener);
 
         }

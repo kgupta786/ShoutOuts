@@ -13,26 +13,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:layout_marginTop="10dp"
-            android:layout_marginHorizontal="20dp"
+            android:textSize="20sp"
+            android:layout_marginTop="90dp"
+            android:layout_marginHorizontal="30dp"
             android:text="Documentation and Copyrights" />
 <TextView
-    android:text="\n\n\n\n It is hereby solemly inform that the application i.e 'ShoutOuts'\n\n holds its proper Copyrights with its owner named 'Mr. Keshav\n\n Gupta' . Any Type of duplication may not be tolerated.. and\n\n action can be taken against if found diobeying these rights.
+    android:text="\n\n\n It is hereby solemly inform that the application i.e 'ShoutOuts' holds its proper Copyrights with its owner named ' Keshav Gupta' . Any Type of duplication may not be tolerated.. and action can be taken against if found disobeying these rights.
 \n\n\n\n\n"
+    android:textSize="15sp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 
 
 
- <TextView
-     android:text="ShoutOuts\n"
-     android:textSize="30sp"
-     android:layout_marginHorizontal="120dp"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content" />
         <TextView
-            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="80sp"
+            android:layout_marginHorizontal="50dp"
             android:textSize="20sp"
             android:text="Developed By Keshav Gupta"
             android:layout_width="match_parent"

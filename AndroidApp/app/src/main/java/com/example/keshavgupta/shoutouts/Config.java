@@ -5,6 +5,6 @@ package com.example.keshavgupta.shoutouts;
  */
 
 public class Config {
-    public static final String EMAIL ="iiiengineer786786@gmail.com";
+    public static final String EMAIL ="womenprotectionnotifier@gmail.com";
     public static final String PASSWORD ="anujolly";
 }
